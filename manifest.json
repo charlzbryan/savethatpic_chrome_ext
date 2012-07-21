@@ -1,0 +1,9 @@
+{
+  "name": "Save That Pic",
+  "version": "0.1",
+  "description": "Save Pictures directly to your downloads folder without 'Save Image As..",
+  "permissions": ["contextMenus","experimental","http://*/*", "https://*/*"],
+  "background": {
+    "scripts": ["SaveFile.js"]
+  }
+}
